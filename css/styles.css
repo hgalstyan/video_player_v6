@@ -11,12 +11,38 @@ body {
 }
 
 .highlight {
-  color:#ffa500;
+  color: #ffa500;
 }
 
-.mouseHover {
+.mouseover {
   background-color: #ffd39b;
 }
+
+
+.mejs__inner .mejs__controls, .mejs__captions-button > .mejs__captions-selector {
+  background: #70787e; 
+}
+
+.mejs__time {
+  color: #fff;
+  font-size: 1.1em; 
+}  
+.mejs__time-total {
+  background-color: #fff; 
+}
+.mejs__time-buffering {
+  background-color: #56768F; 
+}
+.mejs__time-current {
+  background-color: #56768F; 
+}
+.mejs__time-hovered {
+  background-color: #FFEECD; 
+}
+.mejs__time-float {
+  background-color: #B5B48D; 
+}
+
 
 @media (min-width:786px) { 
   body {
